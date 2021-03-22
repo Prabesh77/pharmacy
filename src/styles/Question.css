@@ -1,0 +1,49 @@
+.answers .answer {
+  margin: 12px 0;
+  font-size: 20px;
+}
+
+.question {
+  font-size: 22px;
+}
+
+.answers {
+  padding-left: 2rem;
+}
+
+.answers .answer > input {
+  height: 20px;
+  width: 20px;
+}
+
+.model-question-container .question-block {
+  border-bottom: 2px solid #ccc;
+  background: #eee;
+  padding: 1rem;
+  z-index: -1;
+}
+
+.set-question-block {
+  min-width: 400px;
+  max-width: 400px;
+  transition: 0.4s;
+  padding-right: 0vw;
+  margin: 0 1rem 0 0;
+}
+
+.set-question-block .question {
+  width: 330px;
+}
+
+.set-question-block .answers {
+  max-width: 330px;
+}
+
+.set-question-block .answers .answer label {
+  max-width: 300px;
+}
+
+.set-question-container {
+  display: flex;
+  overflow: hidden;
+}

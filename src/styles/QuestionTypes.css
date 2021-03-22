@@ -1,0 +1,48 @@
+.heading {
+  text-align: center;
+  background: linear-gradient(to right, #6E48AA, #9D50BB);;
+  color: #ccc;
+  margin: 0 auto;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+/* .modelset-container .back-button {
+  top: 7%;
+} */
+
+.readingset-section {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1rem;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.readingset-section .set {
+  text-align: center;
+  padding: 1rem 0;
+  color: #fff;
+  font-size: 18px;
+  /* font-weight: bold; */
+  border-radius: 4px;
+  background: linear-gradient(to right, #6E48AA, #9D50BB);;
+  cursor: pointer;
+}
+
+.readingset-section .set:hover {
+  background: rgb(146, 9, 146);
+  outline: none;
+}
+
+.modelset-section .bar {
+  padding: 10px 0px;
+  width: 86%;
+  margin: 1rem auto;
+  background: linear-gradient(to right, #6E48AA, #9D50BB);
+  /* background: #444; */
+  border-radius:8px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}

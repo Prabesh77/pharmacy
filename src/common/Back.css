@@ -1,0 +1,14 @@
+.back-button {
+  display: inline-block;
+  max-width: 200px;
+  text-align: center;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  top: 4%;
+  margin-left: 2rem;
+}

@@ -1,0 +1,28 @@
+p.note {
+  border-bottom: 1px solid var(--dark-blue);
+  padding: 12px;
+  color: var(--dark-blue);
+}
+p > b {
+  color: #000;
+}
+
+.question-container {
+  padding: 1rem 1rem 7px 1rem;
+}
+
+.actions button {
+  margin: 10px auto;
+}
+
+button.skip-btn {
+  background: var(--red);
+}
+
+.question-page-container .back-button {
+  color: var(--purple);
+  top: 5rem;
+  left: -25px;
+  padding: 4px 5px;
+  z-index: 100;
+}

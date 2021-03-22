@@ -1,0 +1,53 @@
+.res {
+  font-size: 1.3rem;
+
+  padding: 5px 10px 5px 1.5rem;
+  border-left: 5px solid rgb(220, 220, 224);
+}
+
+.score-title {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+}
+
+.res span {
+  display: inline-block;
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
+.res span.label {
+  width: 60%;
+}
+
+.res .res-data {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.right .res-data {
+  color: rgb(111, 212, 111);
+  /* border-left: 4px solid rgb(111, 212, 111); */
+}
+
+.wrong .res-data {
+  color: rgb(212, 104, 104);
+  /* border-left: 4px solid rgb(212, 104, 104); */
+}
+
+.skipped .res-data {
+  color: rgb(172, 43, 118);
+  /* border-left: 4px solid rgb(172, 43, 118); */
+}
+
+.percent .res-data {
+  color: rgb(209, 170, 96);
+  /* border-left: 4px solid rgb(209, 170, 96); */
+}
+
+.remarks .res-data {
+  color: rgb(64, 142, 216);
+  /* border-left: 4px solid rgb(64, 142, 216); */
+}

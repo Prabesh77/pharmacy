@@ -1,0 +1,119 @@
+.form-container {
+  height: 100vh;
+  width: 500px;
+  margin: 0 auto;
+  background:linear-gradient(to right, #9d50bb, #6e48aa);;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.form-container .login-form {
+  margin-top: 7rem;
+}
+
+.form-container .login-title {
+  color: #fff;
+  font-weight: lighter;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin: 0.7rem 0;
+  position: relative;
+}
+
+.login-form .field label {
+  color: #fff;
+}
+
+.login-form .field #contact,
+.login-form .field #registration_no {
+  border: none;
+  border-bottom: 2px solid #333;
+  width: 230px;
+  padding: 10px 0 10px 2rem;
+  margin-top: 5px;
+  border-radius: 0.4rem;
+  outline: none;
+  font-size: 16px;
+}
+
+.login-form .field .user-icon {
+  position: absolute;
+  top: 36px;
+  left: 5px;
+  color: var(--main-blue);
+}
+
+.login-form .login-button {
+  padding: 8px 1.5rem;
+  border-radius: 0.4rem;
+  border: 1px solid #fff;
+  background: var(--light-blue);
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.show-error {
+  font-size: 13px;
+  background: rgba(255, 0, 0, 0.6);
+  text-transform: capitalize;
+  color: #fff;
+  padding: 3px 6px;
+}
+
+.form-container .shape {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background: rgb(212, 210, 210);
+  border-radius: 50%;
+}
+
+.form-container .shape-one {
+  top: -40px;
+  left: -150px;
+}
+
+.form-container .shape-two {
+  bottom: -40px;
+  right: -150px;
+}
+
+div.recommend-to-signup {
+  position: absolute;
+  top: 60%;
+  text-align: center;
+  color: #ccc;
+}
+
+div.recommend-to-signup .sign-up-rec {
+  font-size: 14px;
+  position: relative;
+  width: 400px;
+  font-size: 18px;
+  margin-top: 5rem;
+}
+
+div.recommend-to-signup .sign-up-rec:before,
+div.recommend-to-signup .sign-up-rec:after {
+  content: "";
+  height: 2px;
+  width: 100px;
+  background: rgb(238, 236, 236);
+  position: absolute;
+  display: block;
+  top: 50%;
+}
+
+div.recommend-to-signup .sign-up-rec:after {
+  right: 0;
+}
+
+div.recommend-to-signup .signup-link {
+  text-decoration: underline;
+}

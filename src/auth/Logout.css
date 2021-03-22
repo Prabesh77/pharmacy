@@ -1,0 +1,15 @@
+.logout {
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+}
+
+.logout .head {
+  color: var(--red);
+  font-weight: lighter;
+}
+
+.logout .link {
+  font-size: 1.5rem;
+  color: var(--main-blue);
+}

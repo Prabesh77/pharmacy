@@ -1,0 +1,64 @@
+.model-exam-res-container {
+  display: flex;
+  height: 70vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100vw;
+}
+
+.show-result {
+  box-shadow: 1px 1px 15px 2px rgba(0, 0, 0, 0.2);
+  width: 95%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.show-result .model-res {
+  display: flex;
+  justify-content: space-between;
+  /* background: #ccc; */
+  padding: 1rem 1rem;
+  /* margin: 1rem 0; */
+  font-size: 22px;
+}
+
+.model-res:nth-child(even) {
+  background: #eee;
+}
+
+.model-res:nth-child(odd) {
+  background: #ddd;
+}
+
+.model-res .title {
+  font-weight: bold;
+  color: #444;
+}
+
+.model-res .value {
+  font-weight: bold;
+  min-width: 70px;
+}
+
+.model-res .om-value {
+  color: rgb(60, 139, 60);
+}
+
+.model-res .tm-value {
+  color: rgb(212, 104, 104);
+}
+
+.model-res .p-value {
+  color: rgb(172, 43, 118);
+}
+
+.model-res .r-value {
+  color: rgb(64, 142, 216);
+}
+
+/* color: rgb(111, 212, 111);
+color: rgb(212, 104, 104);
+color: rgb(172, 43, 118);
+color: rgb(209, 170, 96);
+color: rgb(64, 142, 216); */

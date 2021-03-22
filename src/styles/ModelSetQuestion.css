@@ -1,0 +1,32 @@
+.model-question-container .model-note {
+  font-size: 18px;
+  color: var(--main-blue);
+  border-bottom: 1px solid var(--main-blue);
+  padding-bottom: 1rem;
+  margin-top: 3rem;
+}
+
+.model-question-container .model-note span {
+  color: #000;
+  font-weight: bold;
+}
+
+.model-submit {
+  margin: 2rem auto;
+}
+
+.model-home-btn {
+  background: transparent;
+  color: #fff;
+  padding: 6px 10px;
+  display: inline-block;
+  position: absolute;
+  /* left: 1rem; */
+  top: 0.5rem;
+  margin: 0 0 0 1.5rem;
+  font-size: 20px;
+  /* border-radius: 4px; */
+  z-index: 200;
+  border: none;
+  cursor: pointer;
+}
